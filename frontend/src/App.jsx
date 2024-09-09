@@ -10,7 +10,7 @@ const App = () => {
   const fetchRandomQuote = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:5000/api/quotes/random"
+        "https://quote-generator-backend-fgd1.onrender.com/api/quotes/random"
       );
       setQuote(response.data.quote);
       setAuthor(response.data.author);

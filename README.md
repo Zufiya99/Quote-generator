@@ -62,3 +62,6 @@ The backend server will run on http://localhost:5000.
    npm run dev
    ```
    The frontend application will be available at http://localhost:5173
+
+   ## DEPLOYED LINK
+   https://quote-generator-git-main-zufiyas-projects.vercel.app/
